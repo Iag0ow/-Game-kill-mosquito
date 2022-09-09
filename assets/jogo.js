@@ -6,15 +6,21 @@ function tamanhoTela() {
     // console.log(largura, altura)
 }
 tamanhoTela()
+
+
+
 function posAleatoria() {
     if (document.getElementById('mosquito')) {
         document.getElementById('mosquito').remove()
-        if (document.getElementById('cor1').src = 'assets/images/coracao_cheio.png') {
-            document.getElementById('cor1').src = 'assets/images/coracao_vazio.png'
-        } else if (document.getElementById('cor2').src = 'assets/images/coracao_cheio.png') {
-            document.getElementById('cor2').src = 'assets/images/coracao_vazio.png'
-        } else if (document.getElementById('cor3').src = 'assets/images/coracao_cheio.png') {
-            document.getElementById('cor3').src = 'assets/images/coracao_vazio.png'
+        let a = document.getElementById('cor1').src
+        let b = document.getElementById('cor2').src
+        let c = document.getElementById('cor3').src
+        if (a == c) {
+            document.getElementById('cor1').src = "assets/images/coracao_vazio.png"
+        } else if (a != b) {
+            document.getElementById('cor2').src = "assets/images/coracao_vazio.png"
+        } else if (c != a) {
+            document.getElementById('cor3').src = "assets/images/coracao_vazio.png"
         }
     }
 
