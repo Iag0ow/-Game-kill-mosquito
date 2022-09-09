@@ -3,12 +3,8 @@ let altura = 0
 function tamanhoTela() {
     largura = window.innerWidth;
     altura = window.innerHeight;
-    // console.log(largura, altura)
 }
 tamanhoTela()
-
-
-
 function posAleatoria() {
     if (document.getElementById('mosquito')) {
         document.getElementById('mosquito').remove()
@@ -23,7 +19,6 @@ function posAleatoria() {
             document.getElementById('cor3').src = "assets/images/coracao_vazio.png"
         }
     }
-
     let posY = Math.floor(Math.random() * altura - 90)
     let posX = Math.floor(Math.random() * largura - 90)
     posY = posY < 0 ? 0 : posY
@@ -40,7 +35,6 @@ function posAleatoria() {
         this.remove()
     }
 }
-
 function tamanhoMosquito() {
     let classe = Math.floor(Math.random() * 3)
     if (classe == 2) {
@@ -50,7 +44,6 @@ function tamanhoMosquito() {
     } else {
         return 'mosquito1'
     }
-
 }
 function ladoMosquito() {
     let classe = Math.floor(Math.random() * 2)
@@ -59,8 +52,5 @@ function ladoMosquito() {
     } else {
         return 'ladoB'
     }
-
 }
-
-
 setInterval(posAleatoria, 1500)
