@@ -14,4 +14,8 @@
 <br><br>
 <img src="https://user-images.githubusercontent.com/90112622/189507184-6cfee211-b65f-4c9c-a8e0-8181c6f2634a.png" alt="">
 <h2>Vitória</h2>
+<br><br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/90112622/190407047-ceb8c0d7-f70a-4b7a-882c-56175e86ca76.png" alt="">
+<h2>Game Over</h2>
 
