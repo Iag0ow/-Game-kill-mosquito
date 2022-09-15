@@ -13,5 +13,5 @@
 <h2>Tela do game</h2>
 <br><br>
 <img src="https://user-images.githubusercontent.com/90112622/189507184-6cfee211-b65f-4c9c-a8e0-8181c6f2634a.png" alt="">
-<h2>Vítoria</h2>
+<h2>Vitória</h2>
 
